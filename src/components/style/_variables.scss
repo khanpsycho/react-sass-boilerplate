@@ -1,0 +1,18 @@
+@mixin center-children(){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin button-style() {
+  background-color: rgba(37, 4, 156, 0.699);
+  color: white;
+  border: 1px solid yellowgreen;
+  padding: .8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  &:hover{
+    background-color: rgba(53, 5, 228, 0.699);
+  }
+}
